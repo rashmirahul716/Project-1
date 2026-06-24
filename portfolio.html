@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>my portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head>
+    <body>
+        <section id="home" class="index-page">
+            <nav class="nav">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="navbar" id="navbar">
+                    <li><a href="#home" onclick="closeMenu()"><i class="fi fi-rr-home"></i> Home</a></li>
+                    <li><a href="#about" onclick="closeMenu()"><i class="fi fi-rr-info"></i> About</a></li>
+                    <li><a href="#skill" onclick="closeMenu()"><i class="fi fi-rr-graduation-cap"></i> Skills</a></li>
+                    <li><a href="#project" onclick="closeMenu()"><i class="fi fi-rr-briefcase"></i> Project</a></li>
+                    <li><a href="#contact" onclick="closeMenu()"><i class="fi fi-rr-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+            <div class="bio">
+                <h3 class="hi">Hi, I'm </h3>
+                <h1 class="name">RASHMI <span>R K</span></h1>
+                <br>
+                <h4 class="sub">BE student | learning web development</h4>
+                <br></br>
+                <p>Iam a third year computer science student who is interest in web development and learning new technologies.I am currently learning HTML,CSS,JavaScript and improving my skills by building projects.</p>
+                <a href="#contact"><button><i class="fi fi-rr-user"></i>Hire Me</button></a>
+                <a class="view-button" href="#project">view work</a>
+            </div>
+            <img src="image 2.jpeg" alt="my profile" height="350px" class="index-image">
+        </section>
+        <section id="about" class="about-page">
+            <h1 class="heading-about">About <span>Me</span></h1>
+            <br></br>
+            <h2 class="subhead">Who am I?</h2>
+            <br>
+            <div class="about-dis">
+                <p>Hi i'm <span>Rashmi R K</span>,who is interested to study about web development and new technologies.Iam currently pursuing a <span> FULL STACK PYTHON DEVELOPMENT</span> course to build practical skills in front-end and back-end develoment.</p>
+                <br></br>
+                <div class="table">
+                    <div class="left">
+                        <div><i class="fa-solid fa-location-dot"></i>location <br>Thiruvanathapuram</div>
+                        <br>
+                        <div><i class="fa-solid fa-graduation-cap"></i>College <br>GSCET</div>
+                        <br>
+                        <div><i class="fa-solid fa-book-open"></i> Course <br>BE.computer science engineering</div>     
+                    </div>
+                    <div class="right">
+                        <div><i class="fa-solid fa-envelope"></i>  E-mail <br >rashmirahul716@gmail.com</div>
+                        <br>
+                        <div><i class="fa-solid fa-phone"></i> Phone <br>6282648084</div>
+                    </div>
+                </div>
+                <a class="download-button" href="resume.pdf" download="resume.pdf ">Download Resume</a>
+                <a class="view-button" href="#contact"><i class="fi fi-rr-user"></i>contact me</a>
+            </div>
+            <img src="image 2.jpeg" alt="my profile" width="300" height="300" class="about-image">
+            <div class="box">
+                <div>
+                    <h2>2</h2>
+                    <p>project<br>completed</p>
+                </div>
+                <div>
+                    <h2>1+</h2>
+                    <p>years<br>learning</p>
+                </div>
+                <div>
+                    <h2>100%</h2>
+                    <p>dedication</p>
+                </div>
+            </div>
+            <div class="link-logo2">
+                <a href="https://github.com/rashmirahul716"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rashmi-r-k-ab4788407/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/r_a_s_h__m__i?igsh=enk0MzNwcXo5MGIw"><i class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:rashmirahul716@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </section>
+        <section id="skill" class="skill-page">
+            <div class="skillintro">
+                <h1>My <span>skills</span></h1>
+                <br></br>
+                <p>Here are some of my technical skills </p>
+                <br>
+            </div>
+            <div class="skills">
+                <div class="data">
+                    <p>HTML</p> <span>80%</span>
+                </div>
+                <div class="bar">
+                    <div class=" progress html"></div>
+                </div>
+                <div class="data">
+                    <P>CSS</P> <span>50%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress css"></div>
+                </div>
+                <div class="data">
+                    <P>Python</P><span>50%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress python"></div>
+                </div>
+                <div class="data">
+                    <p>c</p><span>75%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress c"></div>
+                </div>
+                <div class="data">
+                    <P>MySQL</P><span>50%</span>
+                </div>
+                <div class="bar">
+                    <div class="progress MySQL"></div>
+                </div>
+            </div>
+            <img src="skills.jpeg" alt="my skills" height="400px" width="600px" class="skilling">
+        </section>
+        <section id="project" class="project-page">
+            <div class="projectintro">
+                <h1>My <span>projects</span></h1>
+                <br></br>
+            </div>
+            <div class="projects-wrapper">
+                <div class="project-1">
+                    <img src="project 1.jpeg" alt="my project" class="project">
+                    <div class="content1">
+                        <h3 class="login-head">Login-Authentication</h3>
+                        <br>
+                        <p>I developed a Login Authentication system to verify the identity of a user trying to access a system using frontend.</p>
+                        <div class="link">
+                            <a class="project-demo-1" href="https://github.com/rashmirahul716">live demo</a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="project-2">
+                    <img src="project  2.webp" alt="my project 2" class="project-pic">
+                    <div class="content2">
+                        <h3 class="port-head">portfolio website</h3>
+                        <br>
+                        <p>I developed a responsive portfolio using HTML,CSS.</p>
+                        <div class="link">
+                            <a class="project-demo-2" href="#home">live demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-page">
+            <div class="classab">
+                <div class="classa">
+                    <div class="contact-heading">
+                        <h2>contact<span> Me</span></h2>
+                        <br></br>
+                    </div>
+                    <h3 class="message">Send a Message</h3>
+                    <br>
+                    <div class="classa">
+                        <form>
+                            <label for="name">Your Name</label>
+                            <br>
+                            <input type="text" placeholder="Enter your name">
+                            <br></br>
+                            <label for="email">Your E-mail</label>
+                            <br>
+                            <input type="email" placeholder="Enter Your email">
+                            <br></br>
+                            <label for="message">Your message</label>
+                            <br>
+                            <textarea class="expand" name="message" placeholder=" Write your message"></textarea>
+                            <br></br>
+                            <button class="send-message" type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+                        </form>
+                    </div>
+                    <div class="classb">
+                        <h2>contact <span> information</span></h2>
+                        <br>
+                        <p class="para">Here are my contact details.feel free to reach out anytime</p>
+                        <br></br>
+                        <div class="details">
+                            <div>
+                                <h4> <i class="fa-solid fa-envelope"></i> E-mail</h4>
+                                <p>rashmirahul716@gmail.com</p>
+                            </div>
+                            <br>
+                            <div>
+                                <h4><i class="fa-solid fa-phone"></i> phone</h4>
+                                <p>+91 6282648084</p>
+                            </div>
+                            <br>
+                            <div>
+                                <h4><i class="fa-solid fa-location-dot"></i> location</h4>
+                                <p>thiruvananthapuram,kerala</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="logo">
+                        <h2>Follow Me</h2>
+                        <a href="https://github.com/rashmirahul716"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/rashmi-r-k-ab4788407/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/r_a_s_h__m__i?igsh=enk0MzNwcXo5MGIw"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="mailto:rashmirahul716@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <footer>
+        <div class="footer-social">
+            <a href="https://github.com/rashmirahul716" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rashmi-r-k-ab4788407/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="mailto:rashmirahul716@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+        <p>© 2026 Rashmi R K. All Rights Reserved.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navbar = document.getElementById('navbar');
+            const hamburger = document.querySelector('.hamburger');
+            navbar.classList.toggle('open');
+            hamburger.classList.toggle('active');
+        }
+        function closeMenu() {
+            const navbar = document.getElementById('navbar');
+            const hamburger = document.querySelector('.hamburger');
+            navbar.classList.remove('open');
+            hamburger.classList.remove('active');
+        }
+    </script>
+</html>
