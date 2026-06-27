@@ -65,7 +65,7 @@ button{
     font-size: 15px;
 }
 i{
-    color: #1e1ede;
+    color:#052df8;
 }
 button:hover{
     filter: brightness(1.2);
@@ -107,6 +107,7 @@ button:hover{
 
 }
 .link-logo2:hover{
+
     filter: brightness(1.2);
     transform: scale(1.05);
     cursor: pointer;
@@ -174,6 +175,9 @@ button:hover{
     filter: brightness(1.2);
     transform: scale(1.05);
     cursor: pointer;
+}
+.link-logo2 i{
+    color: #FFFFFF;
 }
 .link-logo2{
     display: flex;
@@ -394,6 +398,9 @@ textarea{
 .logo{
     margin-left: 85%;
 }
+.logo i{
+    color: #FFFFFF;
+}
 .details{
     margin-top: 0px;
     margin-left: 100px;}
@@ -418,6 +425,9 @@ footer{
     display: flex;
     gap: 25px;
     margin:20px 20px 20px 100px;
+}
+.footer-social i{
+    color: #FFFFFF;
 }
 /* ========== HAMBURGER MENU (hidden on desktop) ========== */
 .hamburger {
